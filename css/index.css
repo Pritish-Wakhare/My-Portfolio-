@@ -1,0 +1,196 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+#particles-js {
+  background-color: #000;
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:0; 
+}
+#overlay {
+  position: relative;
+}
+
+.container
+{
+	width:1200px;
+	border:10px;
+}
+.wrapper
+{
+	width:1200px;
+	margin:auto;
+}
+.dark
+{
+	background-color:rgba(0, 0, 0, 0.6);
+	
+}
+.light
+{
+	background-color:rgba(239, 242, 245, 0.2);;
+}
+#email_left
+{
+	color:#ccd2ce;
+	display:inline-block;
+	line-height:35px;
+	float:left;
+}
+#mobile_right
+{
+	color:#ccd2ce;
+	float:right;
+	line-height:35px;
+}
+#logo_left
+{
+	display:inline-block;
+	float:left;
+}
+#logo_left:hover
+{
+	box-shadow: 2px 2px 10px gray;
+}
+#search_right
+{
+	display:inline-box;
+	float:right;
+	margin-right:30px;
+	margin-top:50px;
+}
+#input[type=text] 
+{
+    float:right;
+	width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('s.png');
+    background-position: -18px -19px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	margin-right:60px;
+	
+}
+#input:hover
+{
+	box-shadow: 2px 2px 10px gray;
+}
+#input[type=text]:focus 
+{
+    width: 100%;
+}
+
+ul
+{
+	
+}
+ul li
+{
+	display:inline-block;
+	color:#e9edf2;
+	width:200px;
+	text-decoration:none;
+}
+ul li a
+{
+	color:white;
+	text-decoration:none;
+	display:block;
+	text-align:center;
+	height:40px;
+	line-height:35px;
+	 
+}
+ul li a:hover
+{
+	background-color:#61bf40;
+	color:black;
+	width:240px;
+	font-size:20px;
+	
+}
+#clear
+{
+	clear:both;
+}
+
+#image_slider img
+{
+	border:1px solid gray;
+	background-color:#eee;
+	width:1200px;
+	padding:10px;
+	box-shadow:5px 5px 10px;
+	filter: alpha(opacity=40);
+	margin-top:10px;
+}
+
+#image_slider:hover
+{
+	opacity: 1;
+	filter: alpha(opacity=100);
+	
+}
+
+
+#text-card
+{
+	display:none;
+	width:340px;
+	box-shadow:5px 5px 10px gray;
+	margin-bottom:3px;
+	padding:10px;
+	background-color:#2f2f30;
+	border:1px solid red;
+}
+#text-card img
+{
+	align:center;
+	width:100px;
+	height:100px;
+	margin:5px;
+}
+h3
+{
+	align:center;
+	
+}
+h4
+{
+	text-align:left;
+	font-family: 'Slabo';
+}
+p
+{
+	text-align:justify;
+	 font-family: 'Slabo', serif;
+}
+
+#contact-button
+{
+	text-align:left;
+}
+#footer
+{
+	text-align:;
+	font-size:20px;
+	font-family:'slabo', serif;
+	background-color:rgb(0,0,0,0.8);
+	margin:auto;
+	padding:15px;
+}
+#footer p
+{
+	text-align:center;
+}
